@@ -17,7 +17,6 @@ module spi_master (
     reg [7:0] tx_shift_reg;
     reg [7:0] rx_shift_reg;
     reg [2:0] bit_c;
-
     reg [1:0] ps,ns;
 
     localparam IDLE = 2'b00;
@@ -25,6 +24,5 @@ module spi_master (
     localparam TRANSFER = 2'b10;
     localparam DONE = 2'b11;
 
-    
 
 endmodule
